@@ -1,2 +1,1 @@
-# ru-cv
-Printable Resume in Russian
+# [Printable Resume in Russian](https://phil.rigovanov.ru/philippe_rigovanov.pdf)
