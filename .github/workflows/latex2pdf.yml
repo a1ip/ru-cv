@@ -20,7 +20,6 @@ jobs:
             philippe_rigovanov.tex
       - name: Push PDFs
         run: |
-          cd download
           git add -f philippe_rigovanov.pdf
           git -c user.name='a1ip' -c user.email='phil@rigovanov.ru' commit -m "autoupdate PDFs"
           git push -q -f https://${{ github.actor }}:${{ secrets.GITHUB_TOKEN }}@github.com/${{ github.repository }} ${GITHUB_REF##*/}
