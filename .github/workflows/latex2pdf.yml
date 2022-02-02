@@ -17,10 +17,7 @@ jobs:
         with:
           working_directory: download
           root_file: |
-            plan10.tex
-            commonplan.tex
-            eldersplan.tex
-            youthplan.tex
+            philippe_rigovanov.tex
       - name: Push PDFs
         run: |
           cd download
